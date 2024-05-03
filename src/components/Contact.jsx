@@ -1,9 +1,23 @@
-import React from 'react'
+import { useState, useRef } from "react";
+import { motion } from "framer-motion";
+import { emailjs } from "@emailjs/browser";
+
+import { styles } from "../styles";
+import { EarthCanvas } from "./canvas";
+import { SectionWrapper } from "../hoc";
+import { slideIn } from "../utils/motion";
 
 const Contact = () => {
-  return (
-    <div>Contact</div>
-  )
-}
+  const formRef = useRef();
+  const [form, setForm] = useState({
+    name: "",
+    emaial: "",
+    message: "",
+  });
+  const [loading, setLoading] = useState(false);
 
-export default Contact
+  const handleChange = (e) => {};
+  const handleSubmit = (e) => {};
+};
+
+export default Contact;
