@@ -44,13 +44,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam voluptates
-        placeat in tempora maiores iure consectetur, eius, eveniet iusto
-        reiciendis molestias! Facere minus ratione nesciunt delectus asperiores
-        iure, cupiditate recusandae! Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. Nam voluptates placeat in tempora maiores iure
-        consectetur, eius, eveniet iusto reiciendis molestias! Facere minus
-        ratione nesciunt delectus asperiores iure, cupiditate recusandae!
+        As a passionate web developer and web designer, I have rapidly developed
+        a strong foundation in creating dynamic and user-friendly websites. My
+        skills encompass JavaScript, HTML, CSS, and PHP, allowing me to craft
+        visually appealing and functional sites. Additionally, I have gained
+        proficiency in modern frameworks like React and Laravel, which enable me
+        to build robust and scalable applications. My knowledge of Node.js
+        further complements my ability to develop efficient server-side
+        solutions. Driven by a commitment to continuous learning and staying
+        updated with industry trends, I strive to deliver innovative and
+        high-quality solutions that meet and exceed client expectations.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
